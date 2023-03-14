@@ -3,8 +3,7 @@ str = "My name is Gaeun Park"
 #문자열 문자수 출력
 print(len(str))
 #10번 반복
-for i in range(10):
-    print(str)
+print(str*10)
 #첫번째 문자 출력
 print(str[0])
 #처음 4문자 출력
