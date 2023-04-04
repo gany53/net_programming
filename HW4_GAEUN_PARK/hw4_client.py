@@ -10,5 +10,5 @@ while True:
     s.send(msg.encode())
     rsp = s.recv(1024)
     print('Received message:', rsp.decode())
-    
+
 s.close()
