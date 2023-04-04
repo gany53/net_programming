@@ -18,3 +18,4 @@ while True:
     client.send(stuId)
 
     client.close()
+    
